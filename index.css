@@ -1,62 +1,79 @@
-/* style.css */ 
+/* style.css */
 
-body { 
-    background-color: #f0f0f0; /* A neutral, light background */ 
-    font-family: 'Courier New', Courier, monospace; /* A blocky, monospaced font */ 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100vh; 
-    margin: 0; 
-} 
+body {
+    background-color: #f0f0f0;
+    /* A neutral, light background */
+    font-family: 'Courier New', Courier, monospace;
+    /* A blocky, monospaced font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 4rem;
+}
 
-.container { 
-    text-align: center; 
-    padding: 2rem; 
-} 
+.container {
+    background: #f2b739;
+    border-radius: 3%;
+    text-align: center;
+    padding: 2rem 5rem 2rem 5rem;
+}
 
-.profile-pic { 
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    border: 4px solid #000; 
-    margin-bottom: 1rem; 
-} 
+.banner {
+    padding: 8rem 0;
+    background: #000;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
 
-h1 { 
-    margin: 0; 
-    font-size: 2.5rem; 
-} 
+.profile-pic {
+    width: 150px;
+    /* height: 150px; */
+    /* border-radius: 50%; */
+    border: 4px solid #000;
+    margin-top: -120px;
+}
 
-.profile p { 
-    margin-top: 0.5rem; 
-    font-size: 1.2rem; 
-} 
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
 
-.links { 
-    margin-top: 2rem; 
-    display: flex; 
-    flex-direction: column; 
-    gap: 1.5rem; 
-} 
+.profile p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
 
-.link-button { 
-    background-color: #fff; 
-    color: #000; 
-    text-decoration: none; 
-    padding: 1rem; 
-    border: 4px solid #000; 
-    font-size: 1.5rem; 
-    font-weight: bold; 
-    box-shadow: 8px 8px 0 #000; 
-    transition: all 0.2s ease-in-out; 
-} 
+.links {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
-.link-button:hover { 
-    box-shadow: 12px 12px 0 #000; 
-    transform: translate(-4px, -4px); 
-} 
+.link-button {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 1rem;
+    border: 4px solid #000;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 8px 8px 0 #000;
+    transition: all 0.2s ease-in-out;
+    text-align: left;
+}
 
-.link-button.hire-me { 
-    background-color: #ffdd00; /* A standout color for the "Hire Me" button */ 
+.link-button:hover {
+    box-shadow: 12px 12px 0 #000;
+    transform: translate(-4px, -4px);
+}
+
+.link-button.hire-me {
+    background-color: #FF6B6B;
+    /* border: 4px solid #ffffff; */
+    /* color: white; */
+    /* box-shadow: 8px 8px 0 #ffffff; */
+    /* A standout color for the "Hire Me" button */
 }
