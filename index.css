@@ -1,0 +1,62 @@
+/* style.css */ 
+
+body { 
+    background-color: #f0f0f0; /* A neutral, light background */ 
+    font-family: 'Courier New', Courier, monospace; /* A blocky, monospaced font */ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+} 
+
+.container { 
+    text-align: center; 
+    padding: 2rem; 
+} 
+
+.profile-pic { 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 4px solid #000; 
+    margin-bottom: 1rem; 
+} 
+
+h1 { 
+    margin: 0; 
+    font-size: 2.5rem; 
+} 
+
+.profile p { 
+    margin-top: 0.5rem; 
+    font-size: 1.2rem; 
+} 
+
+.links { 
+    margin-top: 2rem; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1.5rem; 
+} 
+
+.link-button { 
+    background-color: #fff; 
+    color: #000; 
+    text-decoration: none; 
+    padding: 1rem; 
+    border: 4px solid #000; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    box-shadow: 8px 8px 0 #000; 
+    transition: all 0.2s ease-in-out; 
+} 
+
+.link-button:hover { 
+    box-shadow: 12px 12px 0 #000; 
+    transform: translate(-4px, -4px); 
+} 
+
+.link-button.hire-me { 
+    background-color: #ffdd00; /* A standout color for the "Hire Me" button */ 
+}
