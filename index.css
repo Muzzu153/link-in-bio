@@ -111,6 +111,18 @@ h1 {
     background-color: #FF6B6B;
 }
 
+.link-button .custom-icon {
+    /* Set the size relative to the button's font size */
+    width: 1.2em;
+    height: 1.2em;
+
+    /* Ensure it aligns vertically with the text */
+    vertical-align: middle;
+
+    /* Add space between the icon and the text, just like the others */
+    margin-right: 12px;
+}
+
 
 /* --- Media Query for Mobile and Tablet Screens --- */
 /* This block will apply only when the screen width is 768px or less */
